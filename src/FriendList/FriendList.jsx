@@ -30,3 +30,4 @@ FriendList.propTypes = {
 
 export default FriendList;
 
+// test
