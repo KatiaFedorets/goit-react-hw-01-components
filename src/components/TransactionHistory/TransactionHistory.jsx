@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 import styles from './TransactionHistory.module.css';
 
-
 const TransactionHistory = ({ items }) => (
   <table className={styles.transaction_history}>
     <thead>
@@ -18,7 +17,7 @@ const TransactionHistory = ({ items }) => (
           <td>{item.amount}</td>
           <td>{item.currency}</td>
         </tr>
-      ))};
+      ))}
     </tbody>
   </table>
 );
