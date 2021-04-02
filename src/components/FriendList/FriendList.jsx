@@ -14,7 +14,7 @@ const FriendList = ({ friends }) => (
 );
 
 FriendList.defaultProps = {
-    avatar: 'https://dummyimage.com/640x480/2a2a2a/ffffff&text=Product+image+placeholder'
+  avatar: 'https://dummyimage.com/640x480/2a2a2a/ffffff&text=Product+image+placeholder'
 };
 
 FriendList.propTypes = {
